@@ -1,0 +1,33 @@
+<p>shoppingcartone works!</p>
+
+<div class="form-group">
+    <button type="button" (click)="getShopnow()">Get Repos</button>
+  </div>
+
+
+  <table>
+    <tr *ngFor="let shopnow of shopnows">
+        <td>
+            {{shopnow.name}}
+        </td>
+        <td >
+            <img src="{{shopnow.image}}"/>
+        </td>
+        <td>
+            {{shopnow.id}}
+        </td>
+        <td>
+            {{shopnow. price}}
+        </td>
+        <td>
+            {{shopnow.description}}
+        </td>
+
+
+    </tr>
+    
+  </table>
+
+
+  
+  
